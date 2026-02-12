@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Richard Hamilton | Pop Art</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="portada">
+    <div class="portada-content">
+      <h1>Richard Hamilton</h1>
+      <p>Pionero del Pop Art británico</p>
+    </div>
+    <div class="portada-image">
+      <img src="astro.jpg" alt="Richard Hamilton - Just what is it">
+    </div>
+  </header>
+
+  <!-- BIOGRAFÍA -->
+  <section id="biografia">
+    <h2>Biografía</h2>
+    <p>
+      Richard Hamilton (1922–2011) fue un artista británico pionero del Pop Art. Nació en Londres y estudió en la Royal Academy of Arts y en la Slade School of Fine Art. Combinó el arte con el diseño gráfico, la fotografía y la tecnología, mostrando siempre interés por la cultura contemporánea.
+    </p>
+    <p>
+      Es conocido por analizar la sociedad de consumo, la publicidad y los medios de comunicación. Utilizaba imágenes de revistas y anuncios para crear collages que reflejaban cómo la cultura popular influye en la vida moderna.
+    </p>
+    <p>
+      Su obra más famosa, <em>Just what is it that makes today's homes so different, so appealing?</em> (1956), es considerada una de las primeras obras del Pop Art.
+    </p>
+  </section>
+
+  <!-- OBRAS PRINCIPALES -->
+  <section id="obras">
+    <h2>Obras principales</h2>
+
+    <article>
+      <h3>Just what is it that makes today's homes so different, so appealing?</h3>
+      <p><strong>1956</strong> – Collage icónico considerado una de las primeras obras del Pop Art. Mezcla publicidad, objetos de consumo y figuras humanas para mostrar cómo la sociedad moderna está dominada por el consumo y los medios.</p>
+    </article>
+
+    <article>
+      <h3>Swingeing London 67</h3>
+      <p>Serie sobre cultura, política y medios de comunicación.Obras más importantes de Richard Hamilton
+
+Just what is it that makes today’s homes so different, so appealing? (1956)
+Es su obra más famosa y uno de los primeros ejemplos del Pop Art. Es un collage que mezcla publicidad, objetos de consumo y figuras humanas para mostrar cómo la sociedad moderna está dominada por el consumo y los medios.
+
+Swingeing London 67 (1968–1969)
+Serie de imágenes basada en una fotografía de Mick Jagger arrestado. La obra reflexiona sobre la fama, el poder de los medios de comunicación y la relación entre cultura pop y política.
+
+Interior (1964–1965)
+Representa un espacio doméstico moderno y muestra el interés de Hamilton por el diseño, la arquitectura y la vida cotidiana, combinando arte y entorno urbano.
+
+$he (1958–1961)
+Obra influida por la publicidad y el diseño industrial. Presenta una figura femenina construida a partir de objetos mecánicos y electrodomésticos, criticando la imagen de la mujer en la cultura de consumo.
+
+The Citizen (1981–1983)
+Una obra más política, inspirada en el conflicto de Irlanda del Norte. Muestra a un prisionero y refleja el interés de Hamilton por temas sociales y políticos más allá del Pop Art tradicional.
+</p>
+    </article>
+  </section>
+
+  <!-- GALERÍA - MUSEO DIGITAL -->
+  <section id="galeria">
+    <div class="galeria-header">
+      <h2>Galería de Obras</h2>
+      <p class="galeria-subtitle">Museo Digital Interactivo</p>
+    </div>
+
+    <!-- GALERÍA PRINCIPAL GRANDE -->
+    <div class="galeria-principal">
+      <div class="obra-destacada">
+        <div class="obra-imagen-contenedor">
+          <img src="imagen flores.jpg" alt="Just what is it that makes today's homes so different, so appealing?" id="imagenPrincipal">
+          <div class="marco-museo"></div>
+        </div>
+        <div class="obra-info">
+          <h3 id="tituloPrincipal">Just what is it that makes today's homes so different, so appealing?</h3>
+          <div class="obra-meta">
+            <p id="fechaPrincipal" class="fecha-obra"><strong>1956</strong></p>
+            <p class="artista-obra">Richard Hamilton</p>
+          </div>
+          <p id="descripcionPrincipal">Obra magna del Pop Art británico. Este collage revolucionario combina publicidad, objetos de consumo y figuras humanas para mostrar cómo la sociedad moderna está completamente dominada por el consumo y los medios de comunicación.</p>
+          <div class="obra-detalles">
+            <p><strong>Técnica:</strong> Collage, fotografía y serigrafía</p>
+            <p><strong>Movimiento:</strong> Pop Art</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALERÍA DE MINIATURAS -->
+    <div class="galeria-miniaturas">
+      <div class="miniatura-item" onclick="cambiarObra(0)">
+        <img src="flores.jpg" alt="Obra 1">
+        <div class="miniatura-label">
+          <p>Just what is it...</p>
+          <span>1956</span>
+        </div>
+      </div>
+      <div class="miniatura-item" onclick="cambiarObra(1)">
+        <img src="descarga.jpg" alt="Obra 2">
+        <div class="miniatura-label">
+          <p>Swingeing London 67</p>
+          <span>1968</span>
+        </div>
+      </div>
+      <div class="miniatura-item" onclick="cambiarObra(2)">
+        <img src="descarga (1).jpg" alt="Obra 3">
+        <div class="miniatura-label">
+          <p>Interior</p>
+          <span>1964</span>
+        </div>
+      </div>
+      <div class="miniatura-item" onclick="cambiarObra(3)">
+        <img src="imagen pelo.jpg" alt="Obra 4">
+        <div class="miniatura-label">
+          <p>Popular Culture Assembly</p>
+          <span>1963</span>
+        </div>
+      </div>
+      <div class="miniatura-item" onclick="cambiarObra(4)">
+        <img src="imagen mujer.jpg" alt="Obra 5">
+        <div class="miniatura-label">
+          <p>$he</p>
+          <span>1958</span>
+        </div>
+      </div>
+      <div class="miniatura-item" onclick="cambiarObra(5)">
+        <img src="imagen flores.jpg" alt="Obra 6">
+        <div class="miniatura-label">
+          <p>The Citizen</p>
+          <span>1981</span>
+        </div>
+      </div>
+      <div class="miniatura-item" onclick="cambiarObra(6)">
+        <img src="imagen cara.jpg" alt="Obra 7">
+        <div class="miniatura-label">
+          <p>Mixed Media I</p>
+          <span>1960s</span>
+        </div>
+      </div>
+      <div class="miniatura-item" onclick="cambiarObra(7)">
+        <img src="imagen coche.jpg" alt="Obra 8">
+        <div class="miniatura-label">
+          <p>Mixed Media II</p>
+          <span>1960s</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURIOSIDADES -->
+  <section id="curiosidades">
+    <h2>Curiosidades</h2>
+    <ul>
+      <li>Definió el Pop Art como popular, efímero y sexy.</li>
+      <li>Fue profesor de David Hockney y otros artistas influyentes.</li>
+      <li>Trabajó con diseño gráfico, fotografía y tecnología digital.</li>
+      <li>Su obra combinaba arte culto con cultura de masas.</li>
+    </ul>
+  </section>
+
+  <!-- FUENTES -->
+  <footer id="fuentes">
+    <h2>Fuentes</h2>
+    <ul>
+      <li><a href="https://artuk.org/discover/stories/richard-hamilton-the-pioneer-of-british-pop-art" target="_blank">Art UK - Richard Hamilton: The Pioneer of British Pop Art</a></li>
+      <li><a href="https://www.barnebys.es/blog/richard-hamilton-el-padrino-del-pop-art" target="_blank">Barnebys - Richard Hamilton: El padrino del Pop Art</a></li>
+      <li>Museo Tate</li>
+      <li>Royal Academy of Arts</li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+  div class="miniatura-item" onclick="cambiarObra(4)">
+        <img src="hombre.jpg" alt="Obra 5">
+        <div class="miniatura-label">
+          <p>$he</p>
+          div class="miniatura-item" onclick="cambiarObra(4)">
+        <img src="cuadros.jpg" alt="Obra 5">
+        <div class="miniatura-label">
+          <p>$he</p>
+          div class="miniatura-item" onclick="cambiarObra(4)">
+        <img src="astro.jpg" alt="Obra 5">
+        <div class="miniatura-label">
+          <p>$he</p>
+</body>
+</html>/* 
+
